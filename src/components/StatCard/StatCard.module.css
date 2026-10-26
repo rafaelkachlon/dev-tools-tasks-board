@@ -1,0 +1,64 @@
+.card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 20px 22px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  flex-shrink: 0;
+}
+
+.blue {
+  background: var(--color-primary-50);
+  color: var(--color-primary);
+}
+
+.green {
+  background: var(--color-success-bg);
+  color: var(--color-success);
+}
+
+.amber {
+  background: var(--color-warning-bg);
+  color: var(--color-warning);
+}
+
+.body {
+  min-width: 0;
+}
+
+.label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+}
+
+.value {
+  margin-top: 2px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+.valueSkeleton {
+  margin: 6px 0 8px;
+}
+
+.hint {
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--color-text-muted);
+}

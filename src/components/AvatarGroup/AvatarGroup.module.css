@@ -1,0 +1,24 @@
+.group {
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+}
+
+.item {
+  margin-left: -8px;
+  border: 2px solid var(--color-surface);
+  box-shadow: var(--shadow-xs);
+}
+
+.more {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-full);
+  background: var(--color-primary-50);
+  color: var(--color-primary);
+  font-size: 12px;
+  font-weight: 600;
+}
