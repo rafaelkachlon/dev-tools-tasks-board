@@ -2,7 +2,7 @@
 
 A small single-page task board for a team project, built with **React 19 + TypeScript + Vite** and styled with **CSS Modules**.
 
-> 🐞 **From the DevTools session?** This app has 6 planted bugs. See the **[Debugging guide](DEBUGGING_GUIDE.md)** to reproduce, debug and fix each one.
+> 🐞 **From the DevTools session?** This app has 6 planted bugs. See the **[Debugging guide](https://rafaelkachlon.github.io/dev-tools-tasks-board/)** to reproduce, debug and fix each one (also available as [Markdown](DEBUGGING_GUIDE.md)).
 
 ## Requirements
 

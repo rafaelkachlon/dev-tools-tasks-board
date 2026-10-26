@@ -4,6 +4,8 @@ This is a recap of the DevTools session. The `main` branch has **6 bugs** in it 
 
 The goal isn't this app. It's the workflow you'll use in your final project: **see the symptom → pick the right DevTools panel → find the real cause → fix it.**
 
+> 📖 Prefer a nicer view? Read this guide as a **[web page](https://rafaelkachlon.github.io/dev-tools-tasks-board/)**.
+
 ## Setup
 
 1. Install and run the app (see the [README](README.md)):
