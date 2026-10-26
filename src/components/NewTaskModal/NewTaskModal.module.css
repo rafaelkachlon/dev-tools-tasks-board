@@ -169,7 +169,7 @@
 .saveButton:hover {
   border-color: var(--color-primary-600);
   background: var(--color-primary-600);
-  color: var(--color-primary-600);
+  color: #fff;
 }
 
 .cancelButton:disabled,
