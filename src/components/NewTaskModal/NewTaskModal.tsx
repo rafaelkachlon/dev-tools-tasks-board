@@ -42,7 +42,7 @@ export function NewTaskModal({ team, onClose, onSave }: NewTaskModalProps) {
     setSaving(true);
     try {
       await onSave({
-        name: name.trim(),
+        title: name.trim(),
         assigneeId: assigneeId || null,
         estimateHours: Math.max(0, Number(estimate) || 0),
         urgent,

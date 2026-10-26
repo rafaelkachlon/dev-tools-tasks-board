@@ -19,7 +19,7 @@ export interface Task {
 }
 
 export interface TaskDraft {
-  name: string;
+  title: string;
   assigneeId: string | null;
   estimateHours: number;
   urgent: boolean;
