@@ -3,7 +3,7 @@ import type { StatusFilter, Task } from '../types/task';
 export function calculateTotalHours(tasks: Task[]): number {
   let total = 0;
   for (const task of tasks) {
-    total = total + task.estimateHours;
+    total = total + Number(task.estimateHours);
   }
   return total;
 }
