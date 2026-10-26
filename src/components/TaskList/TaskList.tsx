@@ -44,7 +44,7 @@ export function TaskList({ tasks, loading, onSelect }: TaskListProps) {
   return (
     <div className={styles.grid}>
       {tasks.map((task) => (
-        <TaskCard key={task.id} task={task} isUrgent={String(task.urgent)} onSelect={onSelect} />
+        <TaskCard key={task.id} task={task} isUrgent={task.urgent} onSelect={onSelect} />
       ))}
     </div>
   );

@@ -7,7 +7,7 @@ import styles from './TaskCard.module.css';
 
 interface TaskCardProps {
   task: Task;
-  isUrgent: boolean | string;
+  isUrgent: boolean;
   onSelect: (task: Task) => void;
 }
 
