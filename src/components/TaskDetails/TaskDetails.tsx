@@ -54,8 +54,8 @@ export function TaskDetails({ task, onClose }: TaskDetailsProps) {
           <section className={styles.assigneeCard}>
             <Avatar member={task.assignee} size="lg" />
             <div>
-              <p className={styles.assigneeName}>{task.assignee.name}</p>
-              <p className={styles.assigneeRole}>{task.assignee.role}</p>
+              <p className={styles.assigneeName}>{task.assignee?.name ?? 'Unassigned'}</p>
+              <p className={styles.assigneeRole}>{task.assignee?.role ?? 'No one is working on this yet'}</p>
             </div>
           </section>
 

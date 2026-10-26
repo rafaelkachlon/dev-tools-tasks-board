@@ -12,7 +12,7 @@ export interface Task {
   title: string;
   description: string;
   status: TaskStatus;
-  assignee: TeamMember;
+  assignee: TeamMember | null;
   estimateHours: number;
   urgent: boolean;
   createdAt: string;
